@@ -42,7 +42,7 @@ app.post("/", function(req, res){
 
   const jsonData=JSON.stringify(data);
 
-  const url="https://us6.api.mailchimp.com/3.0/lists/57f8248d3a";
+  const url="https://us6.api.mailchimp.com/3.0/lists/{Your Own Key}";
   const options={
     method:"POST",
     auth:"Nazanin:64e712a24462c08cac2b3ac0ef3ba861-us6"
